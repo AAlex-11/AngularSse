@@ -1,0 +1,6 @@
+<div *ngIf="!message">
+  <p>Waiting for messages...</p>
+</div>
+<div *ngIf="message">
+<p [innerHTML]="message"></p>
+</div>
